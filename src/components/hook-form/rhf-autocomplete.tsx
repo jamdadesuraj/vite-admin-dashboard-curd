@@ -5,8 +5,6 @@ import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { AutocompleteProps } from '@mui/material/Autocomplete';
 
-import { countries } from 'src/assets/data';
-
 import Iconify from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
@@ -165,7 +163,7 @@ export default function RHFAutocomplete<
 // ----------------------------------------------------------------------
 
 export function getCountry(inputValue: string) {
-  const option = countries.filter((country) => country.label === inputValue)[0];
+  // const option = countries.filter((country) => country.label === inputValue)[0];
 
   return {
     ...option,

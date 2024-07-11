@@ -22,7 +22,6 @@ import { _notifications } from 'src/_mock';
 import Label from 'src/components/label';
 import Iconify from 'src/components/iconify';
 import Scrollbar from 'src/components/scrollbar';
-import { varHover } from 'src/components/animate';
 
 import NotificationItem from './notification-item';
 
@@ -33,16 +32,6 @@ const TABS = [
     value: 'all',
     label: 'All',
     count: 22,
-  },
-  {
-    value: 'unread',
-    label: 'Unread',
-    count: 12,
-  },
-  {
-    value: 'archived',
-    label: 'Archived',
-    count: 10,
   },
 ];
 
@@ -140,7 +129,7 @@ export default function NotificationsPopover() {
         component={m.button}
         whileTap="tap"
         whileHover="hover"
-        variants={varHover(1.05)}
+        // variants={varHover(1.05)}
         color={drawer.value ? 'primary' : 'default'}
         onClick={drawer.onTrue}
       >
