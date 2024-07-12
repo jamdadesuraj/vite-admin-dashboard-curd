@@ -5,14 +5,13 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 import { useMockedUser } from 'src/hooks/use-mocked-user';
 
-import { _appFeatured, _appInvoices } from 'src/_mock';
+import { _appFeatured } from 'src/_mock';
 import { SeoIllustration } from 'src/assets/illustrations';
 
 import { useSettingsContext } from 'src/components/settings';
 
 import AppWelcome from '../app-welcome';
 import AppFeatured from '../app-featured';
-import AppNewInvoice from '../app-new-invoice';
 import AppWidgetSummary from '../app-widget-summary';
 
 // ----------------------------------------------------------------------
@@ -46,9 +45,9 @@ export default function OverviewAppView() {
 
         <Grid xs={12} md={4}>
           <AppWidgetSummary
-            title="Total Active Users"
-            percent={2.6}
-            total={18765}
+            title="Total Create Folders"
+            percent={0}
+            total={20}
             chart={{
               series: [5, 18, 12, 51, 68, 11, 39, 37, 27, 20],
             }}
@@ -57,9 +56,9 @@ export default function OverviewAppView() {
 
         <Grid xs={12} md={4}>
           <AppWidgetSummary
-            title="Total Installed"
-            percent={0.2}
-            total={4876}
+            title="Total Files"
+            percent={0}
+            total={250}
             chart={{
               colors: [theme.palette.info.light, theme.palette.info.main],
               series: [20, 41, 63, 33, 28, 35, 50, 46, 11, 26],
@@ -70,26 +69,12 @@ export default function OverviewAppView() {
         <Grid xs={12} md={4}>
           <AppWidgetSummary
             title="Total Downloads"
-            percent={-0.1}
+            percent={0}
             total={678}
             chart={{
               colors: [theme.palette.warning.light, theme.palette.warning.main],
               series: [8, 9, 31, 8, 16, 37, 8, 33, 46, 31],
             }}
-          />
-        </Grid>
-
-        <Grid xs={12} lg={12}>
-          <AppNewInvoice
-            title="New Invoice"
-            tableData={_appInvoices}
-            tableLabels={[
-              { id: 'id', label: 'Invoice ID' },
-              { id: 'category', label: 'Category' },
-              { id: 'price', label: 'Price' },
-              { id: 'status', label: 'Status' },
-              { id: '' },
-            ]}
           />
         </Grid>
       </Grid>

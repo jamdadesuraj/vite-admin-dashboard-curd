@@ -62,115 +62,15 @@ export const _booleans = [
 
 // ----------------------------------------------------------------------
 
-export const _emails = [
-  'nannie_abernathy70@yahoo.com',
-  'ashlynn_ohara62@gmail.com',
-  'milo.farrell@hotmail.com',
-  'violet.ratke86@yahoo.com',
-  'letha_lubowitz24@yahoo.com',
-  'aditya_greenfelder31@gmail.com',
-  'lenna_bergnaum27@hotmail.com',
-  'luella.ryan33@gmail.com',
-  'joana.simonis84@gmail.com',
-  'marjolaine_white94@gmail.com',
-  'vergie_block82@hotmail.com',
-  'vito.hudson@hotmail.com',
-  'tyrel_greenholt@gmail.com',
-  'dwight.block85@yahoo.com',
-  'mireya13@hotmail.com',
-  'dasia_jenkins@hotmail.com',
-  'benny89@yahoo.com',
-  'dawn.goyette@gmail.com',
-  'zella_hickle4@yahoo.com',
-  'avery43@hotmail.com',
-  'olen_legros@gmail.com',
-  'jimmie.gerhold73@hotmail.com',
-  'genevieve.powlowski@hotmail.com',
-  'louie.kuphal39@gmail.com',
-];
+export const _emails = ['surajjamdade@yahoo.com'];
 
 // ----------------------------------------------------------------------
 
-export const _fullNames = [
-  'Jayvion Simon',
-  'Lucian Obrien',
-  'Deja Brady',
-  'Harrison Stein',
-  'Reece Chung',
-  'Lainey Davidson',
-  'Cristopher Cardenas',
-  'Melanie Noble',
-  'Chase Day',
-  'Shawn Manning',
-  'Soren Durham',
-  'Cortez Herring',
-  'Brycen Jimenez',
-  'Giana Brandt',
-  'Aspen Schmitt',
-  'Colten Aguilar',
-  'Angelique Morse',
-  'Selina Boyer',
-  'Lawson Bass',
-  'Ariana Lang',
-  'Amiah Pruitt',
-  'Harold Mcgrath',
-  'Esperanza Mcintyre',
-  'Mireya Conner',
-];
+export const _fullNames = ['Suraj Jamdade'];
 
-export const _firstNames = [
-  'Mossie',
-  'David',
-  'Ebba',
-  'Chester',
-  'Eula',
-  'Jaren',
-  'Boyd',
-  'Brady',
-  'Aida',
-  'Anastasia',
-  'Gregoria',
-  'Julianne',
-  'Ila',
-  'Elyssa',
-  'Lucio',
-  'Lewis',
-  'Jacinthe',
-  'Molly',
-  'Brown',
-  'Fritz',
-  'Keon',
-  'Ella',
-  'Ken',
-  'Whitney',
-];
+export const _firstNames = ['Suraj'];
 
-export const _lastNames = [
-  'Carroll',
-  'Simonis',
-  'Yost',
-  'Hand',
-  'Emmerich',
-  'Wilderman',
-  'Howell',
-  'Sporer',
-  'Boehm',
-  'Morar',
-  'Koch',
-  'Reynolds',
-  'Padberg',
-  'Watsica',
-  'Upton',
-  'Yundt',
-  'Pfeffer',
-  'Parker',
-  'Zulauf',
-  'Treutel',
-  'McDermott',
-  'McDermott',
-  'Cruickshank',
-  'Parisian',
-];
+export const _lastNames = ['Jamdade'];
 
 // ----------------------------------------------------------------------
 
@@ -209,61 +109,11 @@ export const _nativeL = [
 
 // ----------------------------------------------------------------------
 
-export const _phoneNumbers = [
-  '365-374-4961',
-  '904-966-2836',
-  '399-757-9909',
-  '692-767-2903',
-  '990-588-5716',
-  '955-439-2578',
-  '226-924-4058',
-  '552-917-1454',
-  '285-840-9338',
-  '306-269-2446',
-  '883-373-6253',
-  '476-509-8866',
-  '201-465-1954',
-  '538-295-9408',
-  '531-492-6028',
-  '981-699-7588',
-  '500-268-4826',
-  '205-952-3828',
-  '222-255-5190',
-  '408-439-8033',
-  '272-940-8266',
-  '812-685-8057',
-  '353-801-5212',
-  '606-285-8928',
-];
+export const _phoneNumbers = ['365-374-4961'];
 
 // ----------------------------------------------------------------------
 
-export const _roles = [
-  'HR Manager',
-  'Data Analyst',
-  'Legal Counsel',
-  'UX/UI Designer',
-  'Project Manager',
-  'Account Manager',
-  'Registered Nurse',
-  'Business Analyst',
-  'Creative Director',
-  'Financial Planner',
-  'Event Coordinator',
-  'Marketing Director',
-  'Software Developer',
-  'Research Scientist',
-  'Content Strategist',
-  'Operations Manager',
-  'Sales Representative',
-  'Supply Chain Analyst',
-  'Operations Coordinator',
-  'Customer Service Associate',
-  'Quality Assurance Specialist',
-  'CEO',
-  'CFO',
-  'CTO',
-];
+export const _roles = ['Senior Software Developer'];
 
 // ----------------------------------------------------------------------
 
