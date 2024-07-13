@@ -12,7 +12,7 @@ import Toolbar, { formats } from './toolbar';
 // ----------------------------------------------------------------------
 
 export default function Editor({
-  id = 'minimal-quill',
+  id = 'Document-quill',
   error,
   simple = false,
   helperText,
