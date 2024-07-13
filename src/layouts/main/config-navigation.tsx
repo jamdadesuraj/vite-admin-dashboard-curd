@@ -6,8 +6,8 @@ import Iconify from 'src/components/iconify';
 
 export const navConfig = [
   {
-    title: 'Docs',
+    title: 'Login',
     icon: <Iconify icon="solar:notebook-bold-duotone" />,
-    path: paths.docs,
+    path: paths.auth.jwt.login,
   },
 ];
