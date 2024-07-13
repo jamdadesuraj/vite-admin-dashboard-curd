@@ -62,115 +62,15 @@ export const _booleans = [
 
 // ----------------------------------------------------------------------
 
-export const _emails = [
-  'nannie_abernathy70@yahoo.com',
-  'ashlynn_ohara62@gmail.com',
-  'milo.farrell@hotmail.com',
-  'violet.ratke86@yahoo.com',
-  'letha_lubowitz24@yahoo.com',
-  'aditya_greenfelder31@gmail.com',
-  'lenna_bergnaum27@hotmail.com',
-  'luella.ryan33@gmail.com',
-  'joana.simonis84@gmail.com',
-  'marjolaine_white94@gmail.com',
-  'vergie_block82@hotmail.com',
-  'vito.hudson@hotmail.com',
-  'tyrel_greenholt@gmail.com',
-  'dwight.block85@yahoo.com',
-  'mireya13@hotmail.com',
-  'dasia_jenkins@hotmail.com',
-  'benny89@yahoo.com',
-  'dawn.goyette@gmail.com',
-  'zella_hickle4@yahoo.com',
-  'avery43@hotmail.com',
-  'olen_legros@gmail.com',
-  'jimmie.gerhold73@hotmail.com',
-  'genevieve.powlowski@hotmail.com',
-  'louie.kuphal39@gmail.com',
-];
+export const _emails = ['suraj@yahoo.com'];
 
 // ----------------------------------------------------------------------
 
-export const _fullNames = [
-  'Jayvion Simon',
-  'Lucian Obrien',
-  'Deja Brady',
-  'Harrison Stein',
-  'Reece Chung',
-  'Lainey Davidson',
-  'Cristopher Cardenas',
-  'Melanie Noble',
-  'Chase Day',
-  'Shawn Manning',
-  'Soren Durham',
-  'Cortez Herring',
-  'Brycen Jimenez',
-  'Giana Brandt',
-  'Aspen Schmitt',
-  'Colten Aguilar',
-  'Angelique Morse',
-  'Selina Boyer',
-  'Lawson Bass',
-  'Ariana Lang',
-  'Amiah Pruitt',
-  'Harold Mcgrath',
-  'Esperanza Mcintyre',
-  'Mireya Conner',
-];
+export const _fullNames = ['Suraj Jamdade'];
 
-export const _firstNames = [
-  'Mossie',
-  'David',
-  'Ebba',
-  'Chester',
-  'Eula',
-  'Jaren',
-  'Boyd',
-  'Brady',
-  'Aida',
-  'Anastasia',
-  'Gregoria',
-  'Julianne',
-  'Ila',
-  'Elyssa',
-  'Lucio',
-  'Lewis',
-  'Jacinthe',
-  'Molly',
-  'Brown',
-  'Fritz',
-  'Keon',
-  'Ella',
-  'Ken',
-  'Whitney',
-];
+export const _firstNames = ['Suraj'];
 
-export const _lastNames = [
-  'Carroll',
-  'Simonis',
-  'Yost',
-  'Hand',
-  'Emmerich',
-  'Wilderman',
-  'Howell',
-  'Sporer',
-  'Boehm',
-  'Morar',
-  'Koch',
-  'Reynolds',
-  'Padberg',
-  'Watsica',
-  'Upton',
-  'Yundt',
-  'Pfeffer',
-  'Parker',
-  'Zulauf',
-  'Treutel',
-  'McDermott',
-  'McDermott',
-  'Cruickshank',
-  'Parisian',
-];
+export const _lastNames = ['Jamdade'];
 
 // ----------------------------------------------------------------------
 
