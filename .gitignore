@@ -17,6 +17,7 @@ dist
 build
 
 # environment variables
+.env
 
 # misc
 .DS_Store
